@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href="./CSS/style contato.css">
+    <script defer src="./JS/script contato.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-Eq9SYDvhH4AHlGRZnpF3OjVw2LzCx2f97PO2e5ovHRLV3V+7a8Yr+5PgqQszifvtS4J/+np4d2uFdtXaHFE/qw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-..." crossorigin="anonymous" />
+</head>
+<body style="background-color: black; color: white;">
+    <nav>
+        <div class="container">
+          <img src="https://iconape.com/wp-content/files/yw/331314/svg/331314.svg" alt="Logo Vasco da Gama" class="logo">
+          <ul class="menu">
+            <li><a href="./index.html">Início</a></li> 
+            <li><a href="./historia.html">Nossa história</a></li>
+            <li><a href="./noticias.html">Notícias</a></li>
+            <li><a href="./ingresso.html">Ingressos</a></li>
+          </ul>
+        </div>
+      </nav>
+
+
+      <div class="img-container">
+        <img class="img-background" src="https://www.netvasco.com.br/news/noticias16/arquivos/20220527-121722-1-2-.jpg" alt="Imagem de Fundo">
+        <div class="form-container">
+          <h1>Contate-nos</h1>
+          <form id="contactForm">
+            <div class="form-group">
+              <label for="name">Nome:</label>
+              <input type="text" class="form-control" id="name" required>
+            </div>
+            <div class="form-group">
+              <label for="email">E-mail:</label>
+              <input type="email" class="form-control" id="email" required>
+            </div>
+            <div class="form-group">
+              <label for="phone">Telefone:</label>
+              <input type="tel" class="form-control" id="phone" required>
+            </div>
+            <div class="form-group">
+              <label for="message">Mensagem:</label>
+              <textarea class="form-control" id="message" rows="4" required></textarea>
+            </div>
+            <div class="form-group">
+              <label>Por onde prefere que seja feito o atendimento?</label><br>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="contactPreference" id="phoneContact" value="Telefone" required>
+                <label class="form-check-label" for="phoneContact">Telefone</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="contactPreference" id="emailContact" value="E-mail">
+                <label class="form-check-label" for="emailContact">E-mail</label>
+              </div>
+            </div>
+            <div class="div-botao">
+            <button type="submit" class="btn btn-primary">Enviar</button>
+          </div>
+          </form>
+          <div class="confirmation-message" id="confirmationMessage">
+            *Seu formulário foi enviado! Em breve nossa equipe irá te retornar.*
+          </div>
+        </div>
+      </div>
+
+      <div class="footer">
+        <div class="footer-container">
+          <img class="img-footer" src="https://vasco.com.br/wp-content/themes/hpmais/assets/images/logo_vasco_2.png">
+          <div class="social-links">
+            <p class="siga-nos">Siga-nos</p>
+            <a class="elementos-footer" target="_blank" href="https://www.instagram.com/vascodagama/"><img class="me-1" src="https://vasco.com.br/wp-content/themes/hpmais/assets/images/insta_footer.png" alt="Instagram"></a>
+            <a class="elementos-footer" target="_blank" href="https://www.facebook.com/vascodagama"><img class="me-1" src="https://vasco.com.br/wp-content/themes/hpmais/assets/images/face_footer.png" alt="Facebook"></a>
+            <a class="elementos-footer" target="_blank" href="https://www.tiktok.com/@vasco"><img class="me-1" src="https://vasco.com.br/wp-content/themes/hpmais/assets/images/tiktok_footer.png" alt="Tiktok"></a>
+            <a class="elementos-footer" target="_blank" href="https://www.youtube.com/@vascodagama2108"><img class="me-1" src="https://vasco.com.br/wp-content/themes/hpmais/assets/images/youtube_footer.png" alt="Youtube"></a>
+          </div>
+        </div>
+      </div>
+
+      <button onclick="topFunction()" id="btnTopo" title="Voltar ao topo">↑</button>
+
+</body>
+</html>

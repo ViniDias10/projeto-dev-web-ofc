@@ -1,0 +1,293 @@
+nav {
+  background-color: #333;
+  padding: 10px 0;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.logo {
+  width: 150px;
+  height: auto;
+  margin-left: 150px;
+}
+
+.menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  display: inline-block;
+  margin-right: 80px;
+}
+
+.menu a {
+  color: #fff;
+  font-family: sans-serif;
+  text-decoration: none;
+}
+
+nav a {
+  color: #fff;
+  font-family: sans-serif;
+  text-decoration: none;
+  transition: color 0.3s ease;
+  font-size: 25px;
+  margin-right: 25px;
+}
+
+nav a:hover {
+  color: #ff6961;
+}
+
+.footer {
+  background-color: #333;
+  padding: 20px;
+}
+
+.footer-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.img-footer {
+  max-width: 150px;
+}
+
+.social-links {
+  display: flex;
+  align-items: center;
+}
+
+.social-links p {
+  margin-right: 10px;
+}
+
+.elementos-footer {
+  margin-right: 10px;
+  font-size: 30px;
+}
+
+.me-1 {
+  width: 30px;
+  height: 30px;
+}
+
+.siga-nos {
+  font-size: 40px;
+  margin-right: 10px;
+  font-family: 'Courier New', Courier, monospace;
+  color: white;
+}
+
+.como-surgiu {
+  background-color: #515151;
+  border-radius: 20px;
+  margin: 20px auto; 
+  margin-top: 30px; 
+  margin-bottom: 30px; 
+  color: white;
+  max-width: 800px;
+  padding: 20px;
+}
+
+.como-surgiu h1 {
+  text-align: center;
+  margin-top: 80px;
+  font-size: 50px;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: black;
+  margin-bottom: 30px;
+}
+
+.como-surgiu p {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-align: justify;
+  line-height: 1.6;
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
+#btnTopo {
+  display: none;
+  position: fixed;
+  bottom: 80px;
+  right: 30px;
+  z-index: 99;
+  border: none;
+  outline: none;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  font-size: 18px;
+  text-align: center;
+  line-height: 50px;
+  font-size: 30px;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.img1 {
+  max-width: 100%;
+  height: auto;
+  border-radius: 20px;
+}
+
+.resposta-historica h1{
+  text-align: center;
+  margin-top: 80px;
+  font-size: 50px;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: black;
+  margin-bottom: 30px;
+}
+
+.resposta-historica{
+  background-color: #515151;
+  border-radius: 20px;
+  margin: 20px auto; 
+  margin-top: 30px; 
+  margin-bottom: 30px; 
+  color: white;
+  max-width: 800px;
+  padding: 20px;
+}
+
+.img2{
+  border-radius: 20px;
+}
+
+.img3{
+  max-width: 100%;
+  height: auto;
+  border-radius: 20px;
+}
+
+.resposta-historica p {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-align: justify;
+  line-height: 1.6;
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
+.construcao-sj{
+  background-color: #515151;
+  border-radius: 20px;
+  margin: 20px auto; 
+  margin-top: 30px; 
+  margin-bottom: 30px; 
+  color: white;
+  max-width: 800px;
+  padding: 20px;
+}
+
+.construcao-sj h1{
+  text-align: center;
+  margin-top: 80px;
+  font-size: 50px;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: black;
+  margin-bottom: 30px;
+}
+
+.construcao-sj p{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-align: justify;
+  line-height: 1.6;
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
+.img4{
+  max-width: 100%;
+  height: auto;
+  border-radius: 20px;
+  margin-bottom: 30px;
+}
+
+.img5{
+  max-width: 100%;
+  height: auto;
+  border-radius: 20px;
+  margin-bottom: 30px;
+}
+
+.titulos{
+  background-color: #515151;
+  border-radius: 20px;
+  margin: 20px auto; 
+  margin-top: 30px; 
+  margin-bottom: 30px; 
+  color: white;
+  max-width: 800px;
+  padding: 20px;
+}
+
+.titulos h1 {
+  text-align: center;
+  margin-top: 80px;
+  font-size: 50px;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: black;
+}
+
+.img7{
+  max-width: 100%;
+  height: auto;
+  margin-top: 30px;
+  border-radius: 20px;
+}
+
+.titulos li {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-align: justify;
+  line-height: 1.6;
+  margin-bottom: 20px;
+  font-size: 20px;
+  margin-top: 30px;
+}
+
+li.hide-row {
+  display: none;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.centralizar-botao{
+  height: 80px;
+  width: 130px;
+}
+
+.list-marker::before {
+  content: "\2022"; 
+  color: #ffffff; 
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em; 
+}
+
+
+
+
+
